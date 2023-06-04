@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .jumbotron {
+      background-image: url('buku.jpg');
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+      .contact {
+      padding: 80px 0;
+      background: #fff;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+
+    .contact p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .contact .contact-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .contact .contact-info i {
+      font-size: 36px;
+      margin-right: 10px;
+    }
+
+    .contact .contact-info p {
+      font-size: 18px;
+    }
+
+    .contact .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .contact .contact-form input,
+    .contact .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .contact .contact-form button {
+      font-size: 18px;
+      padding: 12px 24px;
+    } 
+  </style>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>TOKO BUKU</h1>
+    <a class="btn btn-primary" href="#projects">Daftar Buku</a>
+  </div>
+
+  <section id="projects" class="container mt-5">
+    <h2 class="text-center mb-4">Buku</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="buku1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Buku 1</h5>
+            <p class="card-text">pengetauan</p>
+            <a href="#" class="btn btn-primary">Lihat Detail </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="buku2.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Buku 2</h5>
+            <p class="card-text">Pemrograman</p>
+            <a href="#" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="buku3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Buku 3</h5>
+            <p class="card-text">Fiksi</p>
+            <a href="#" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+ <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Dapatkan Buku sesuai dengan yang kamu mau</p>
+      <div class="contact-info">
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        <p>+628523419987</p>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2023 My Portfolio. All rights reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
